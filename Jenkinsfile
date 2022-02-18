@@ -7,8 +7,6 @@ pipeline {
             steps {
                 welcome('shiva')
             }
-        }
-        stage('Operations') {
             steps {
                 script {
                     cal.add(2,3)
